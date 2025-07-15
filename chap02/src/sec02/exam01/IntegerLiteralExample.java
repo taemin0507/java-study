@@ -9,6 +9,7 @@ public class IntegerLiteralExample {
 		int var2 = 013; // 8진수
 		int var3 = 11; // 10진수(주로 사용)
 		int var4 = 0xB3; //16진수(RGB 색상값 저장 시)
+	
 		
 		System.out.println("var1: " + var1);
 		System.out.println("var2: " + var2);
