@@ -17,7 +17,7 @@ public class PrintfExample {
 		String job = "도적";
 		System.out.printf("%6d | %-10s | %10s\n", 1, name, job);
 		
-		
+
 		
 		
 	}

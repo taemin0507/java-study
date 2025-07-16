@@ -25,6 +25,7 @@ public class ScannerExample {
 //		[입력]    [출력]
 //		10 20 => 10,20
 		
+		
 		int inputData2;
 		int inputData3;
 		// Scanner 클래스는 사용자의 입력을 다양한 타입으로 자동 변환해주는 편리한 기능을 제공
