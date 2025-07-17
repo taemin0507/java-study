@@ -39,7 +39,7 @@ public class ConditionalOperatorExample {
 //			System.out.println("점수입력오류");
 //		}
 //		
-		String y = (x>100)||(x < 0)? "점수이상오류" :((x >= 60)? "합격": "불합격");
+		String y = (x>100)||(x < 0)? "점수입력오류" :((x >= 60)? "합격": "불합격");
 		 System.out.println(y);
 		 
 		
