@@ -20,7 +20,7 @@ public class Homework04 {
 		System.out.printf("합계 : %d점\n",sum);
 		System.out.printf("평균 : %d점\n",avg);
 		
-		String str = (avg >=90)? "핸드폰 바꾸기": "핸드폰을 바꿀수 없습니다.";
+		String str = (avg >=90) && ((x >=60) && (z >= 60) && (y >= 60))? "핸드폰 바꾸기": "핸드폰을 바꿀수 없습니다.";
 		System.out.println(str);
 		
 	}
