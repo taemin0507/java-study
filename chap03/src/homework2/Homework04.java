@@ -13,12 +13,13 @@ public class Homework04 {
 		int y = sc.nextInt();
 		System.out.print("영어 : ");
 		int z = sc.nextInt();
-		
+		// 점수의 합계
 		int sum = x + y + z;
-		int avg = (x + y + z)/3;
+		// 점수의 평균
+		double avg = (x + y + z)/3.0;
 		
 		System.out.printf("합계 : %d점\n",sum);
-		System.out.printf("평균 : %d점\n",avg);
+		System.out.printf("평균 : %.1f점\n",avg);
 		
 		String str = (avg >=90) && ((x >=60) && (z >= 60) && (y >= 60))? "핸드폰 바꾸기": "핸드폰을 바꿀수 없습니다.";
 		System.out.println(str);

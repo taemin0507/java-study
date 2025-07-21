@@ -88,8 +88,8 @@ public class WhileSumFrom1To100Example {
 		sum = 0;
 		i = sc.nextInt();
 		while(i > 0) {
-			sum = sum + (i % 10);
-			i = i / 10;
+			sum = sum + (i % 10); // 마지막 자리 수 더하기
+			i = i / 10; // 마지막 자리 제거
 		}
 		
 		System.out.println(sum);
