@@ -8,36 +8,26 @@ public class Homework05 {
 		Scanner sc = new Scanner(System.in);
 		
 		int x = 0;
-		
+		int sum = 0;
 		
 		while(true) {
 			
-			System.out.print("숫자(0을 입력하면 종료)");
+			System.out.print("숫자(0을 입력하면 종료): ");
 			x = sc.nextInt();
 			
-			if (x) {
-				
+			if (x == 0) {
+				break;
+			}else if (x<0) {
+				continue;
 			}
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+			sum += x;
 		}
-		
+			
+		System.out.println("양수의 합: " + sum);
+			
+			
+			
+			
 	}
-
 }
