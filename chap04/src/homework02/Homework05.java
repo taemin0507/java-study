@@ -7,7 +7,7 @@ public class Homework05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int x = 0;
+		int x;
 		int sum = 0;
 		
 		while(true) {

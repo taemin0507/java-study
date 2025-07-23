@@ -7,13 +7,13 @@ public class Homework07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int x = 0;
+		int x;
 		while(true) {
 			System.out.print("정수 : ");
 			x = sc.nextInt();
 			
 			
-			if (x < 0) {
+			if (x <= 0) {
 				System.out.println("양수가 아닙니다.");
 			} else {
 				for (int i = 0; i < x; i++) {

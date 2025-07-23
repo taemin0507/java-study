@@ -1,0 +1,14 @@
+package sec04.exam06.quiz;
+
+public class Adder {
+
+	int add(int n1, int n2) {
+		int result1 = n1 + n2;
+		return result1;
+	}
+
+	double add(double n3, double n4) {
+		double result2 = n3 + n4;
+		return result2;
+	}
+}
