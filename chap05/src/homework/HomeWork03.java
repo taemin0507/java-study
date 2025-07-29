@@ -27,7 +27,10 @@ public class HomeWork03 {
 				}
 
 				for (int i = 0; i < x; i++) {
-					System.out.print(y[i] + ", ");
+					if(i>0) {
+					System.out.print(", ");
+					}	
+					System.out.print(y[i]);
 				}
 				System.out.println();
 				break;
